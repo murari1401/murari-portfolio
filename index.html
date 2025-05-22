@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Murari B | Software Developer Portfolio</title>
+	<style>
+		/* Basic Reset */
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			line-height: 1.6;
+			background: #f9f9f9;
+			color: #333;
+			padding: 20px;
+			max-width: 900px;
+			margin: auto;
+		}
+
+		h1,
+		h2,
+		h3 {
+			color: #222;
+			margin-bottom: 0.5rem;
+		}
+
+		p {
+			margin-bottom: 1rem;
+		}
+
+		section {
+			margin-bottom: 2rem;
+			padding-bottom: 1rem;
+			border-bottom: 1px solid #ddd;
+		}
+
+		a {
+			color: #0073e6;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			list-style-type: disc;
+			padding-left: 20px;
+			margin-bottom: 1rem;
+		}
+
+		.contact-links a {
+			margin-right: 15px;
+			font-weight: bold;
+		}
+
+		footer {
+			text-align: center;
+			font-size: 0.9rem;
+			color: #666;
+			margin-top: 40px;
+			padding-top: 10px;
+			border-top: 1px solid #ddd;
+		}
+
+		@media (max-width: 600px) {
+			body {
+				padding: 10px;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<link rel="stylesheet" href="styles.css">
+		<script src="script.js"></script>
+		<img src="images/logo.png" alt="Logo" />
+		<h1>Murari B</h1>
+		<h2>Software Developer – Gen AI, ML & Full Stack</h2>
+	</header>
+
+	<section id="about-me">
+		<h2>About Me</h2>
+		<p>
+			Hi, I’m Murari B, a passionate Software Developer specializing in intelligent, human-centric applications powered
+			by Generative AI, Large Language Models, and scalable full-stack architectures. I have hands-on experience in
+			voice-based authentication, AI-driven emotional assistants, and secure, data-focused tools, honed through
+			internships at Walmart and MeMu AI. I excel in Java, Python, React, and ML frameworks, building real-world
+			solutions that combine robustness with cutting-edge AI.
+		</p>
+		<p>
+			I aim to create technology that feels like magic — intuitive, reliable, and impactful. I’m eager to bring this
+			mindset to Uber, where AI integrates seamlessly with everyday life.
+		</p>
+	</section>
+
+	<section id="core-focus">
+		<h2>Core Focus Areas</h2>
+		<ul>
+			<li><strong>Generative AI & NLP:</strong> OpenAI APIs, LangChain, Transformers, LlamaIndex</li>
+			<li><strong>Machine Learning:</strong> Model training, explainable AI (SHAP, LIME, Captum), Streamlit</li>
+			<li><strong>Secure AI Systems:</strong> Voice authentication, multi-factor login, real-time detection</li>
+			<li><strong>Frontend Engineering:</strong> React.js, Next.js, Tailwind CSS, responsive design</li>
+			<li><strong>Backend Engineering:</strong> Node.js, Express.js, REST APIs, SQLite, Firebase</li>
+			<li><strong>AI Toolchains:</strong> Python, PyTorch, TensorFlow, Scikit-learn, Docker (basic)</li>
+			<li><strong>Mobile Apps:</strong> React Native CLI, voice & UI integration, real-time notifications</li>
+			<li><strong>Cloud & DevOps:</strong> GitHub, CI/CD pipelines, Postman, Firebase, GitHub Pages</li>
+		</ul>
+	</section>
+
+	<section id="projects">
+		<h2>Key Projects</h2>
+		<article>
+			<h3>🔐 Voice Auth Login System (2025)</h3>
+			<p>Developed a secure AI-powered two-factor authentication system with voiceprint and password fallback.
+				Integrated animated UI and storytelling features for enhanced post-login user engagement.</p>
+			<p><em>Relevance to Uber:</em> Enables secure identity verification leveraging real-time audio & ML for passenger
+				or internal user authentication.</p>
+		</article>
+
+		<article>
+			<h3>🤖 Lexa AI – Voice-Powered Educational Assistant</h3>
+			<p>Built a voice-activated Python assistant supporting natural language queries, Wikipedia search, system control,
+				and academic support. Integrated YouTube, news, and weather APIs for comprehensive assistance.</p>
+			<p><em>Relevance to Uber:</em> Real-time conversational agents aiding users, drivers, or automating internal
+				workflows.</p>
+		</article>
+
+		<article>
+			<h3>💕 MeMu AI – Emotionally Adaptive AI Chatbot</h3>
+			<p>Created a React Native chatbot with mood recognition, personality traits, voice/text response, and emergency
+				safety features. Features include mood swings, memory retention, daily check-ins, and background sound
+				detection.</p>
+			<p><em>Relevance to Uber:</em> AI models enhancing empathetic engagement for customers and drivers; wellness and
+				moderation tools.</p>
+		</article>
+
+		<article>
+			<h3>📦 Walmart Shipment Data Processor</h3>
+			<p>Automated extraction, validation, and ingestion of multi-sheet shipping data using Python and Pandas. Ensured
+				clean, consistent data storage in SQLite for downstream analytics.</p>
+			<p><em>Relevance to Uber:</em> Reflects logistics data pipelines critical to ride-share and delivery operations.
+			</p>
+		</article>
+
+		<article>
+			<h3>📊 Explainable AI Learning Platform</h3>
+			<p>Developed a UI to visualize SHAP, LIME, and Captum explanations for ML model interpretability. Educates users
+				on fairness, transparency, and debugging of AI models.</p>
+			<p><em>Relevance to Uber:</em> Supports responsible AI deployment in pricing, routing, and demand prediction
+				models.</p>
+		</article>
+	</section>
+
+	<section id="tech-stack">
+		<h2>Tech Stack Snapshot</h2>
+		<ul>
+			<li><strong>Languages:</strong> JavaScript, Python, Java, TypeScript</li>
+			<li><strong>Frontend:</strong> React.js, Next.js, Tailwind CSS</li>
+			<li><strong>Backend:</strong> Node.js, Express.js, REST APIs</li>
+			<li><strong>Databases:</strong> Firebase, MySQL, SQLite</li>
+			<li><strong>ML & Gen AI:</strong> OpenAI (ChatGPT, DALL·E), LangChain, Transformers, TensorFlow, Scikit-learn</li>
+			<li><strong>DevOps & Tools:</strong> Docker (basic), Git, GitHub, Firebase, Postman, VS Code</li>
+		</ul>
+	</section>
+
+	<section id="education">
+		<h2>Education</h2>
+		<p><strong>B.Tech – Computer Science</strong><br />
+			AVN Institute of Engineering and Technology, Hyderabad, India — 2025
+		</p>
+	</section>
+
+	<section id="certifications">
+		<h2>Certifications</h2>
+		<ul>
+			<li>AI Engineer – OneRoadMap</li>
+			<li>Generative AI – Microsoft</li>
+			<li>Frontend Development – OneRoadMap</li>
+			<li>Python Full Stack – LearnAI</li>
+			<li>Java with DSA – LearnAI</li>
+			<li>Analyze Images with AI – Microsoft</li>
+			<li>Fundamentals of Machine Learning – Microsoft</li>
+		</ul>
+	</section>
+
+	<section id="experience">
+		<h2>Experience</h2>
+
+		<article>
+			<h3>Software Engineer Intern – Walmart</h3>
+			<p><em>Dec 2024 – Feb 2025</em></p>
+			<ul>
+				<li>Developed scalable Python pipelines to validate and ingest multi-file shipment data</li>
+				<li>Designed robust data schemas and ensured production-ready ML preprocessing</li>
+			</ul>
+		</article>
+
+		<article>
+			<h3>App Developer Intern – MeMu AI</h3>
+			<p><em>Jan 2024 – May 2024</em></p>
+			<ul>
+				<li>Built a React Native chatbot with emotion recognition and voice interface</li>
+				<li>Implemented safety and mood-based features with real-time UI/UX design</li>
+			</ul>
+		</article>
+	</section>
+
+	<section id="contact">
+		<h2>Let’s Connect</h2>
+		<p class="contact-links">
+			📧 <a href="mailto:begarimurari@gmail.com">begarimurari@gmail.com</a> &nbsp; | &nbsp;
+			📞 <a href="tel:+917013829118">+91 70138 29118</a> &nbsp; | &nbsp;
+			🔗 <a href="https://linkedin.com/in/murari-b-178517330" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+			&nbsp; | &nbsp;
+			💻 <a href="https://github.com/murari-dev" target="_blank" rel="noopener noreferrer">GitHub</a> &nbsp; | &nbsp;
+			🌐 <a href="https://murari.github.io" target="_blank" rel="noopener noreferrer">Portfolio</a>
+		</p>
+	</section>
+
+	<footer>
+		<p>© 2025 Murari B | Software Developer Portfolio</p>
+	</footer>
+</body>
+
+</html>
