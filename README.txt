@@ -1,30 +1,86 @@
-Editorial by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# 🌐 Murari's Developer Portfolio
+
+Welcome to my personal developer portfolio – a space where innovation meets design.  
+Built to reflect my skills, projects, and passion for creating intelligent digital experiences.
+
+---
+
+## 🚀 About Me
+
+I'm a software developer with a love for building intelligent, interactive systems — from futuristic AI assistants like **RUDRA AI** to emotional companions like **MeMu AI**. I combine code with creativity to turn ideas into immersive tech experiences.
+
+---
+
+## ✨ Features
+
+- 🧑‍💻 **About Me Section** – A quick intro with background, goals, and passion.
+- 🛠️ **Tech Stack Display** – Modern and responsive list of tools I use.
+- 📂 **Featured Projects** – Showcase of selected projects with links and descriptions.
+- 📄 **Resume Download** – One-click access to my latest resume.
+- 📱 **Responsive Design** – Works seamlessly across desktop, tablet, and mobile.
+- 🌙 **Dark Mode Support** *(optional)*
+- 📬 **Contact Form/Links** – Easy ways to reach out or connect.
+
+---
+
+## 🔧 Tech Stack
+
+| Area             | Tech Used                         |
+|------------------|-----------------------------------|
+| Frontend         | React.js, HTML5, CSS3, JavaScript |
+| Styling          | Tailwind CSS / Styled Components  |
+| Icons & Assets   | FontAwesome, Custom SVGs          |
+| Animations       | Framer Motion / GSAP *(optional)* |
+| Deployment       | GitHub Pages / Vercel / Netlify   |
 
 
-Say hello to Editorial, a blog/magazine-ish template built around a toggleable "locking"
-sidebar (scroll down to see what I mean) and an accordion-style menu. Not the usual landing
-page/portfolio affair you'd expect to see at HTML5 UP, but I figured for my 41st (!!!)
-template I'd change it up a little. Enjoy :)
+ 
+## 📁 Folder Structure
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+portfolio/
+├── public/
+│ ├── index.html
+│ └── assets/
+├── src/
+│ ├── components/
+│ │ ├── Header.js
+│ │ ├── About.js
+│ │ ├── Projects.js
+│ │ ├── Contact.js
+│ ├── App.js
+│ └── index.js
+├── README.md
+├── package.json
+└── tailwind.config.js
 
-(* = not included)
+ 
+---
 
-AJ
-aj@lkn.io | @ajlkn
+## 🛠️ Getting Started
+
+1. **Clone the repo**
+
+```bash
+git clone  https://github.com/murari1401/murari-portfolio
+cd portfolio
+Install dependencies
+
+ 
+npm install
+Start development server
+ 
+npm run dev
+# or
+npm start
 
 
-Credits:
+📬 Contact Me
+📧 Email: begarimurari@gmail.com
 
-	Demo Images:
-		Unsplash (unsplash.com)
+🐙 GitHub: https://github.com/murari1401
 
-	Icons:
-		Font Awesome (fontawesome.io)
+📱 LinkedIn:  www.linkedin.com/in/murari-b-178517330
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+📄 License
+This project is open-source and free to use under the MIT License.
+
